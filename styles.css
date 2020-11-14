@@ -1,0 +1,119 @@
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+ 
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+ 
+  .content {
+    padding: 16px;
+  }
+  
+ 
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+ 
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  #hatterkep{
+        background-image: url('background.jpg');
+        height: 500px;
+        background-position: center; 
+        padding-top:200px;
+        background-repeat: no-repeat;
+  }
+#doboz{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 200px;
+    
+    max-width: 400px;
+    margin: auto;
+    color:white;
+    text-align:center;
+    padding:10px;
+
+   
+}
+#doboz h1{
+    font-size:50px;
+    
+}
+#foglalj{
+    width:50%;
+    margin:auto;
+    background-color: grey;
+    border-radius: 20px;
+    border: darkgray 2px solid;
+    color: white;
+}
+#foglalj a{
+    color:white;
+    text-decoration: none;
+}
+#foglalj:hover{
+    border-radius: 10px;
+    background-color: rgb(0,86,179);
+}
+#tartalom{
+    margin: auto;
+    height: 600px;
+    width:80%;
+    text-align: center;
+    padding: 30px;
+}
+#tartalom h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: serif;
+    color: red;
+}
+#tartalom p{
+    text-align: justify;
+    width:95%;
+    margin: auto;
+}
+#szoba{
+    width:100%
+}
+#galeria{
+    max-width: 800px;
+    max-height: 800px;
+    margin:auto;
+}
+#galeria img{
+    width:32%;
+    
+    margin-top: 5px;
+}
+#foglalas{
+    height: 200px;
+    margin-top: 100px;
+}
+#bal{
+    float:left;
+    width:50%
+}
+#job{
+    float:left;
+    width:50%
+}
+#fo{
+    margin-left: 109px;
+}
+#ejdb{
+    margin-left: 20px;
+}
